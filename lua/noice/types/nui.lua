@@ -22,6 +22,7 @@
 ---@field buf_options? vim.bo
 ---@field win_options? vim.wo
 ---@field close? {events?:string[], keys?:string[]}
+---@field cancel_on_enter? boolean
 
 ---@class NuiBaseOptions: _.NuiBaseOptions
 ---@field relative "'cursor'"|"'editor'"|"'win'"|NuiRelative
